@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MeadowSky
+  m_Shader: {fileID: 4800000, guid: a1e10957be485fe4b9ae76064787fe76, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _CloudAmount: 0.32
+    - _CloudScale: 1.1
+    - _CloudSpeed: 0.012
+    - _HorizonFalloff: 4.5
+    - _MilkyWay: 0.7
+    - _MoonSize: 0.028
+    - _StarBrightness: 3
+    - _StarDensity: 0.5
+    - _SunHalo: 1
+    - _SunSize: 0.032
+    - _TwinkleSpeed: 2.5
+    m_Colors:
+    - _DayHorizon: {r: 0.62, g: 0.8, b: 0.97, a: 1}
+    - _DayZenith: {r: 0.1, g: 0.32, b: 0.85, a: 1}
+    - _MilkyColor: {r: 0.3, g: 0.34, b: 0.55, a: 1}
+    - _MoonColor: {r: 0.85, g: 0.92, b: 1, a: 1}
+    - _NightHorizon: {r: 0.035, g: 0.065, b: 0.14, a: 1}
+    - _NightZenith: {r: 0.008, g: 0.014, b: 0.045, a: 1}
+    - _SunColor: {r: 1, g: 0.93, b: 0.78, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
